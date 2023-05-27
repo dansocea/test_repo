@@ -1,11 +1,11 @@
 # Check if a file is provided as an argument
-if [ $# -eq 0 ]; then
-    echo "Error: No file provided."
-    echo "Usage: ./script.sh <file>"
-    exit 1
-fi
+#if [ $# -eq 0 ]; then
+#    echo "Error: No file provided."
+#    echo "Usage: ./script.sh <file>"
+#    exit 1
+#fi
 
-file="$1"
+file=textfile.txt
 
 # Check if the file exists
 if [ ! -f "$file" ]; then
